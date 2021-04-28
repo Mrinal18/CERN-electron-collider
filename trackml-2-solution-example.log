@@ -1,0 +1,31 @@
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+
+[NbConvertApp] Executing notebook with kernel: python3
+
+2020-03-10 03:48:33.063227: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+
+2020-03-10 03:48:33.525288: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+
+2020-03-10 03:48:33.526272: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1355] Found device 0 with properties: 
+
+name: Tesla P100-PCIE-16GB major: 6 minor: 0 memoryClockRate(GHz): 1.3285
+
+pciBusID: 0000:00:04.0
+
+totalMemory: 15.90GiB freeMemory: 15.64GiB
+
+2020-03-10 03:48:33.526326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1434] Adding visible gpu devices: 0
+
+2020-03-10 03:48:38.862996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:922] Device interconnect StreamExecutor with strength 1 edge matrix:
+
+2020-03-10 03:48:38.863047: I tensorflow/core/common_runtime/gpu/gpu_device.cc:928]      0 
+
+2020-03-10 03:48:38.863057: I tensorflow/core/common_runtime/gpu/gpu_device.cc:941] 0:   N 
+
+2020-03-10 03:48:38.864607: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1052] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14939 MB memory) -> physical GPU (device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:00:04.0, compute capability: 6.0)
+
+[NbConvertApp] Writing 27640 bytes to __notebook__.ipynb
+
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+
+[NbConvertApp] Writing 364562 bytes to __results__.html
